@@ -20,3 +20,5 @@ class RandomController < ApplicationController
   def personalized
   end
 end
+
+
