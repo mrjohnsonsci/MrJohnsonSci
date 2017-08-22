@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :students
   root 'static_pages#home'
   get 'static_pages/home'
   get 'random/core1'
