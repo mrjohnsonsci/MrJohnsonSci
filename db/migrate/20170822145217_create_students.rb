@@ -4,8 +4,6 @@ class CreateStudents < ActiveRecord::Migration[5.0]
       t.string :name
       t.integer :hour
       t.integer :call_count
-
-      t.timestamps
     end
   end
 end

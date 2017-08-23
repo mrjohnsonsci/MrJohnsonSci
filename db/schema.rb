@@ -16,8 +16,7 @@ ActiveRecord::Schema.define(version: 20170822145217) do
     t.string   "name"
     t.integer  "hour"
     t.integer  "call_count"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+
   end
 
 end
