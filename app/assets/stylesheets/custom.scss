@@ -1,6 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 /* universal */
+/* universal */
 
 body {
   padding-top: 60px;
@@ -50,33 +51,16 @@ p {
 }
 
 /* header */
-header {
-  margin-top: 45px;
-  padding-top: 5px;
-  border-top: 1px solid #eaeaea;
-  color: #777;
-}
 
-header a {
-  color: #555;
-}
-
-header a:hover {
-  color: #222;
-}
-
-header small {
+#logo {
   float: left;
-}
-
-header ul {
-  float: right;
-  list-style: none;
-}
-
-header ul li {
-  float: left;
-  margin-left: 15px;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
 }
 
 #logo:hover {
