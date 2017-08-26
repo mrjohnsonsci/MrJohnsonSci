@@ -1,0 +1,25 @@
+
+
+<style>
+.div{
+  border: 1px solid black;
+  box-sizing: border-box;
+  float: left;
+  font-size: 1rem;
+  margin: 20px;
+  padding: 2%;
+  width: 25%;
+}
+</style>
+<% @student.each do |student|%>
+<div>
+   <%= student[:name] %>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+</div>
+<% end %>

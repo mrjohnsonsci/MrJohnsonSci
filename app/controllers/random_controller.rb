@@ -19,6 +19,9 @@ class RandomController < ApplicationController
     @student =  Student.where(hour: 5).shuffle
   end
 
+  def flex
+    @student =  Student.where(hour: 5).shuffle
+  end
 end
 
 
