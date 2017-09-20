@@ -13,12 +13,13 @@
  *= require_tree .
  *= require_self
  */
-div{
-  border: 1px solid black;
+h1.list{
+
   box-sizing: border-box;
   float: left;
   font-size: 4rem;
-  margin: 20px;
+    margin: auto;
   padding: 2%;
   width: 25%;
+ border: 6px solid green;
 }
