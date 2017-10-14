@@ -15,3 +15,31 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//document.addEventListener("keypress", function(event) {
+//    if (event.keyCode == 13) {
+//        alert('hi.');
+//    }
+//});
+
+       document.addEventListener("keypress", function(event) {
+           //http://ee.hawaii.edu/~tep/EE160/Book/chap4/subsection2.1.1.1.html
+           //alert(event.keyCode);
+           switch (event.keyCode) {
+               case 65:
+                  alert('hi.');
+                   gif_a_path ;
+               break;
+               case 66:
+                  gif_b_path;
+               break;
+               case 67:
+                   gif_c_path;
+               break;
+
+
+
+
+
+
+
+

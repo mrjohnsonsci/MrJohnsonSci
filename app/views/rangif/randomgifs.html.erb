@@ -1,0 +1,69 @@
+<html>
+ <head>
+    <style>
+
+       .dunk {
+           visibility: hidden;
+       }
+       .faceplant {
+           visibility: hidden;
+       }
+       .yes {
+           visibility: hidden;
+       }
+    </style>
+    <script>
+       function showElement(name, delay) {
+           var element  = document.getElementsByClassName(name)[0];
+           element.style.visibility = "visible";
+           setTimeout(function(){ element.style.visibility = "hidden"; }, delay);
+       }
+document.addEventListener("keypress", function(event) {
+  
+    if (event.keyCode == 67) {
+        alert('hi!');
+    }
+     switch (event.keyCode) {
+               case 49:
+                 alert('49');
+                 break; 
+               case 50:
+                 alert('50');
+                 break;                 
+                 
+     }
+    
+    
+    
+});
+       document.addEventListener("keypress", function(event) {
+           //http://ee.hawaii.edu/~tep/EE160/Book/chap4/subsection2.1.1.1.html
+           //alert(event.keyCode);
+           switch (event.keyCode) {
+               case 68:
+                   showElement("dunk", 3000);
+               break;
+               case 70:
+                   showElement('faceplant', 3000);
+               break;
+               case 71:
+                   showElement('yes', 3000);
+               break;
+           }
+       });
+    </script>
+ <body>
+    <div class='dunk animated-gif overlap' style="position:absolute; top:20px;  left:20px; ">
+       <%= image_tag "dunk.gif" %>
+
+              
+    </div>
+    <div class='faceplant animated-gif overlap'style="position:absolute; top:20px;  left:20px; ">
+       <%= image_tag "faceplant.gif" %>
+    </div>
+    <div>
+      <img class="yes animated-gif overlap" style="position:absolute; top:20px;  left:20px; "
+       src="https://media.giphy.com/media/Wq6DnHvHchrTG/giphy.gif">
+    </div>
+ </body>
+</html>

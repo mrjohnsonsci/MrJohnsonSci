@@ -23,3 +23,16 @@ h1.list{
   width: 25%;
  border: 6px solid green;
 }
+
+.animated-gif{
+  width: 100%;
+  height: auto;
+}
+
+.overlap{
+    position: absolute:
+    z-index: 2000;
+    left: 100px;
+    width: 100%;
+    height: auto;
+}
