@@ -13,10 +13,9 @@
 ActiveRecord::Schema.define(version: 20170822145217) do
 
   create_table "students", force: :cascade do |t|
-    t.string   "name"
-    t.integer  "hour"
-    t.integer  "call_count"
-
+    t.string  "name"
+    t.integer "hour"
+    t.integer "call_count"
   end
 
 end
