@@ -17,15 +17,133 @@ h1.list{
 
   box-sizing: border-box;
   float: left;
-  font-size: 4rem;
+  font-size: 12rem;
     margin: auto;
   padding: 2%;
-  width: 25%;
+  width: auto%;
  border: 6px solid green;
 }
 
 .animated-gif{
-  width: 100%;
+  width: 75%
   height: auto;
 }
+ .centered {
+           position: fixed;
+           top: 50%;
+           left: 50%;
+           transform: translate(-45%, -45%);
+           width: 80%;
+           height: auto;
+}
+  
 
+       .QQ {
+           visibility: hidden;
+       }
+       .WW{
+           visibility: hidden;
+       } 
+       .EE{
+           visibility: hidden;
+       }
+        .RR{
+           visibility: hidden;
+       }
+        .TT{
+           visibility: hidden;
+       }
+        .YY{
+           visibility: hidden;
+       }
+        .UU{
+           visibility: hidden;
+       }
+        .II{
+           visibility: hidden;
+       }
+        .OO{
+           visibility: hidden;
+       }
+        .PP{
+           visibility: hidden;
+       }
+        .Q{
+           visibility: hidden;
+       }
+        .W{
+           visibility: hidden;
+       }
+        .E{
+           visibility: hidden;
+       }
+        .R{
+           visibility: hidden;
+       }
+        .T{
+           visibility: hidden;
+       }
+        .Y{
+           visibility: hidden;
+       }
+        .U{
+           visibility: hidden;
+       }
+        .I{
+           visibility: hidden;
+       }
+        .O{
+           visibility: hidden;
+       }
+        .P{
+           visibility: hidden;
+       }
+        .A{
+           visibility: hidden;
+       }
+        .S{
+           visibility: hidden;
+       }
+        .D{
+           visibility: hidden;
+       }
+        .F{
+           visibility: hidden;
+       }
+        .G{
+           visibility: hidden;
+       }
+        .H{
+           visibility: hidden;
+       }
+        .J{
+           visibility: hidden;
+       }
+        .K{
+           visibility: hidden;
+       }
+        .L{
+           visibility: hidden;
+       }
+        .Z{
+           visibility: hidden;
+       }
+        .X{
+           visibility: hidden;
+       }
+        .C{
+           visibility: hidden;
+       }
+        .V{
+           visibility: hidden;
+       }
+        .B{
+           visibility: hidden;
+       }
+        .N{
+           visibility: hidden;
+       }
+        .M {
+           visibility: hidden;
+       }
+       
